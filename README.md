@@ -37,9 +37,11 @@ Davinci Ver:    18.0.0b.7
 ## Configuration
 There are acouple things which you will have to edit.
 
+
+### 'lib_' path
 Depending on the Operating System you are using you will have to pick the 'lib_' path:
 
-All paths supplied are standard paths from Davinci's scripting readme file.
+All paths supplied in the script are standard paths from Davinci's scripting readme file.
 
 Path varibules are:
 * lib_mac
@@ -52,25 +54,24 @@ dvr_script = imp.load_dynamic('fusionscript', lib_win)
 
 
 
-
+### Email
 Need to config your email information
 ```
 emailVar = {
-    'gmail_userName': 'your@gmail.com',
-    'gmail_password': 'abc123', # Gmail APP password, NOT your email account password, but APP password
+    'gmail_userName': 'your@gmail.com', # HERE
+    'gmail_password': 'abc123', # HERE - You can try your email password, but your probly gonna need an Gmail APP password. Its free and easy. https://www.google.com/search?q=python+gmail+smtp+app+password
     'smtp_addy': 'smtp.gmail.com',
     'smtp_port': 465,
-    'mailTo': ['sendTo@email.com', '1234567890@vzwpix.com'],
-    'subject_pre': 'Davinci Render: '
+    'mailTo': ['sendTo@email.com', '1234567890@vzwpix.com'], # HERE
+    'subject_pre': 'Davinci Render: ' # HERE
         }
 
 ```
 
 
-
+### Beep
 For windows uses who want the script to beep when render finishs:
 You will need to change this to True
 ```
 makeBeep = False # for Windows: used at bottom of script
 ```
-
