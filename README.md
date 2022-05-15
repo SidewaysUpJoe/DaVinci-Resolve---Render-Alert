@@ -1,4 +1,4 @@
-# DaVinci-Resolve - Render-Alert
+# DaVinci Resolve - Render Alert
 This script will and send off an email(s) (and text messages) through your gmail account when your render finishs with information about the render. For windows users you can also have the script 'beep' when render is finished. The script can be run two different ways: as a "stand alone" script or from Davinci's script menu.
 
 The script was tested with Davinci Resolve 18, but do not see any reason why it will not work with earlyer version.
@@ -54,7 +54,6 @@ dvr_script = imp.load_dynamic('fusionscript', lib_win)
 
 
 
-
 ### Email
 Need to config your email information
 ```
@@ -68,8 +67,6 @@ emailVar = {
         }
 
 ```
-
-
 
 
 ### Beep
