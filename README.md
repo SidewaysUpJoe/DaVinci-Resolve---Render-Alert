@@ -38,7 +38,7 @@ Davinci Ver:    18.0.0b.7
 There are acouple things which you will have to edit.
 
 
-### 'lib_' path
+### Library Path
 Depending on the Operating System you are using you will have to pick the 'lib_' path:
 
 All paths supplied in the script are standard paths from Davinci's scripting readme file.
@@ -51,6 +51,7 @@ Path varibules are:
 ```
 dvr_script = imp.load_dynamic('fusionscript', lib_win)
 ```
+
 
 
 
@@ -67,6 +68,8 @@ emailVar = {
         }
 
 ```
+
+
 
 
 ### Beep
