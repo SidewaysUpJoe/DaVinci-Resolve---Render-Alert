@@ -3,16 +3,29 @@ This script will and send off an email(s) (and text messages) through your gmail
 
 For running through Davinci, you will have to save the script to Davinci's ...\Scripts\Deliver\ dir.
 
-Windows path: C:\ProgramData\Blackmagic Design\DaVinci Resolve\Fusion\Scripts\Deliver
+
+**Windows path:** C:\ProgramData\Blackmagic Design\DaVinci Resolve\Fusion\Scripts\Deliver
+
+**MAC path:** /Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Deliver
+
+**Linux path:** /opt/resolve/Fusion/Scripts (or /home/resolve/Fusion/Scripts/Deliver depending on installation)
 
 The script was tested with Davinci Resolve 18, but do not see any reason why it will not work with earlyer version.
 
-Heres a video of a full howto for using the script.
-https://www.youtube.com/watch?v=
+* Heres a **video of a full howto** for using the script https://youtu.be/gW3vY_qDD_I
 
 
 
 Example of what the email (or sms) will look like. All info is being pulled from Davinci.
+
+Email Subject Title will be:
+```
+Davinci Render: Your Project's Name
+```
+
+
+
+Email Body
 ```
 Start:          05/15/2022, 06:28:15 PM
 Finished:       05/15/2022, 06:28:33 PM
