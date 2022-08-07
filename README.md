@@ -66,7 +66,7 @@ Path varibules are:
 * lib_linux
 
 ```
-dvr_script = imp.load_dynamic('fusionscript', lib_win)
+dvr_script = importlib.import_module('fusionscript', lib_win)
 ```
 
 
